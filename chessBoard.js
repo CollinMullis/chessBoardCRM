@@ -4,7 +4,8 @@
 */
 var line1 = " # # # #" 
 var line2 = "# # # # "
-for (i = 1; i <= 8;i++) {
+size = 8
+for (i = 1; i <= size;i++) {
 	// If line # is odd, print first line
 	if (i % 2 !== 0)
 		console.log(line1)
